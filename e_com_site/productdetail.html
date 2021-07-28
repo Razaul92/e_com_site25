@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------ Google Fonts ----->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!---------Favicon--------->
+    <link rel="shortcut icon" href="./images/fevicon2.ico" type="image/x-icon" />
+
+
+    <!------Glide js Carousel----->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <!-----Animate on Scroll----->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!---------Stylesheet--------->
+    <link rel="stylesheet" href="style.css">
+
+    <!----------FontAwesome-------->
+    <link rel="Stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+    <!-------- Carousel--------- -->
+    <!link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <!link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+    <!link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>MobiKaan</title>
+</head>
+
+<body>
+    <!------
+=========================
+           Header
+=========================
+------->
+    <header class="header" id="header">
+        <!-------Navigation----------->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+
+                    <div class="nav__hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="nav__logo">
+                        <a href="/" class="scroll-link">
+            MOBILE
+          </a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">MOBILE</span>
+                            <a href="#" class="close__toggle">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Home</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#category" class="nav__link ">Category</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#news" class="nav__link">Blog</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link scroll-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nav__icons">
+                        <a href="#" class="icon__item">
+                            <!input type="search"  placeholder="search for products, brands and more">
+                            <i class="fas fa-search"></i>
+                        </a>
+
+                        <a href="login.html" class="icon__item">
+                            <i class="fas fa-user"></i>
+                        </a>
+
+                        <a href="cart.html" class="icon__item">
+                            <i class="fas fa-shopping-basket"></i>
+                            <span id="cart__total"></span>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+   
+    </header>
+
+    <!----------Main--------------->
+    <!-----------Single Product Detail------>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/products/product__detail/gallery-1.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="./images/products/product__detail/gallery-2.jpg" width="100%" class="small-img">   
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/products/product__detail/gallery-3.jpg" width="100% "class="small-img">   
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/products/product__detail/gallery-4.jpg" width="100%" class="small-img">   
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./images/products/product__detail/gallery-1.jpg" width="100%" class="small-img">   
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p>Home/T-Shirts</p>
+                <h2>Red Printed T-Shirt by XYZ</h2>
+                <h4><sup>&#8377;</sup>1,750</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XX-Large</option>
+                    <option>X-Large</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1" min="1">
+                <a href="cart.html" class="btm">Add To Cart</a>
+                <br>
+
+                <h3>Product Details<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Durable stitch and Quality finish. This T-shirt is stitched for higher durability 
+                    using the best technology in the industry. Manufactured from Cotton fabric, 
+                    this T-shirt is very smooth and soft making it comfortable to wear during all Seasons. 
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------Related Products------------>
+    <div class="container">
+
+        <section class="section latest__products" id="latest">
+            <div class="title__container">
+                <div class="section__title active" data-id="Latest Products">
+                    <span class="dot"></span>
+                    <h1 class="primary__title">Related Products</h1>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="glide" id="glide_2">
+
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides latest-center">
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/iPhone/iphone6.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Apple iPhone 11</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                          <h4><sup>&#8377;</sup><span class="new__price">59,900</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/headphone/headphone10.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Sony MDR-X50AP </h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">1,850</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/sumsung/samsung3.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Samsung Galaxy</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">19,850</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/clothes/pic4.png" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Men Casual Shirts</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">1,785</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/sumsung/samsung5.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Samsung Galaxy M31s</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">23,857</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/clothes/pic3.png" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Laptop Office Bag</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">1,250</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/clothes/pic6.png" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Mens Casual Shoes</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">885</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/headphone/headphone5.jpeg" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Sony MDR-ZX110</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">1,055</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/clothes/pic2.png" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Womens Sandals</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">1,450</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./images/products/clothes/pic14.png" alt="">
+                                    </div>
+
+                                    <div class="product__footer">
+
+                                        <h3>Mens Sports Shoes</h3>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+
+                                        <div class="product__price">
+                                            <h4><sup>&#8377;</sup><span class="new__price">2,550</span></h4>
+                                            <a href="cart.html">
+                                                <button type="button" class="product__btn">
+                   Add to Cart
+                 </button>
+                                            </a>
+                                        </div>
+
+                                        <ul>
+                                            <a href="#">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-sync-alt"></i>
+                                            </a>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+         <i class="fas fa-arrow-left"></i>
+       </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+         <i class="fas fa-arrow-right"></i>
+       </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    <!------Facility Section------>
+    <section class="facility__section section" id="facility">
+        <div class="container">
+            <div class="facility__container">
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>FREE SHIPING WORLD WIDE</p>
+                </div>
+
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <p>100% MONEY BACK GUARANTEE</p>
+                </div>
+
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                    <p>MONEY PAYMENT GATEWAY</p>
+                </div>
+
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <p>24/7 ONLINE SUPPORT</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!---------NewsLetter----------->    
+<section class="section newsletter" id="contact">
+<div class="container">
+    <div class="newsletter__content">
+        <div class="newsletter__data">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>A short sentence describing what someone will receive by subscribing</p>
+        </div>
+        <form action="#">
+            <input type="email" class="newsletter__email" placeholder="Enter your email address">
+            <a href="#" class="newsletter__link">Subscribe</a>
+        </form>
+    </div>
+</div>
+</section>
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__box">
+                    <h3>EXTRA</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificate</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Special</a>
+                    <a href="#">Site Map</a>
+                </div>
+
+                <div class="footer-top__box">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+
+                <div class="footer-top__box">
+                    <h3>EXTRA</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+
+                <div class="footer-top__box">
+                    <h3>CONTACT US</h3>
+                    <div class="">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            42 Andhera House, Andheri Street, Andheri, Mumbai, India
+                        </span>
+                    </div>
+
+                    <div class="">
+                        <span>
+                            <i class="fas fa-envelope-square"></i>
+                            Company@gmail.com
+                        </span>
+                    </div>
+
+                    <div class="">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                            +91-9874563210
+                        </span>
+                    </div>
+
+                    <div class="">
+                        <span>
+                            <i class="far fa-paper-plane"></i>
+                            Andhri Street
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-------Go To Top------------>
+    <a href="#header" class="goto-top scroll-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-------Glide js-------------->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <!----------AOS---------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!----------Script------------->
+    <script src="./Js/index.js"></script>
+    <script src="./Js/slider.js"></script>
+    <script src="./Js/products.js"></script>
+    <!---------Js for Product Gallery---------->
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function(){
+        ProductImg.src = SmallImg[3].src;
+    }
+</script>
+</body>
+
+</html>

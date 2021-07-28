@@ -1,0 +1,108 @@
+{
+    "products":[{
+        "id": 5,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone3.jpeg",
+        "price": "15,258",
+        "category": "Special Products"
+    },
+    {
+        "id": 7,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone4.jpeg",
+        "price": "18,580",
+        "category": "Featured Products"
+    },
+    {
+        "id": 3,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone2.jpeg",
+        "price": "12,670",
+        "category": "Special Products"
+      },
+      {
+        "id": 12,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone7.jpeg",
+        "price": "9,850",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 18,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone9.jpeg",
+        "price": "16,630",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 19,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone10.jpeg",
+        "price": "12,550",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 15,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone8.jpeg",
+        "price": "6,900",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 9,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone5.jpeg",
+        "price": "5,250",
+        "category": "Recent"
+    },
+    {
+        "id": 14,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone7.jpeg",
+        "price": "6,650",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 11,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone6.jpeg",
+        "price": "14,580",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 21,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone11.jpeg",
+        "price": "3,350",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 23,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone12.jpeg",
+        "price": "16,680",
+        "category": "Featured Products"
+    },
+    {
+        "id": 7,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone4.jpeg",
+        "price": "18,580",
+        "category": "Featured Products"
+    },
+    {
+        "id": 1,
+        "title": "Sony WH-CH510",
+        "image": "./images/products/headphone/headphone1.jpeg",
+        "price": "11,550",
+        "category": "Special Products"
+    }
+ ]
+}

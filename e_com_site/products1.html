@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------ Google Fonts ----->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!---------Favicon--------->
+    <link rel="shortcut icon" href="./images/fevicon2.ico" type="image/x-icon" />
+
+
+    <!------Glide js Carousel----->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+    <!-----Animate on Scroll----->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!---------Stylesheet--------->
+    <link rel="stylesheet" href="style.css">
+
+    <!----------FontAwesome-------->
+    <link rel="Stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+    <!-------- Carousel--------- -->
+    <!link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <!link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+    <!link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>MobiKaan</title>
+</head>
+
+<body>
+    <!------
+=========================
+           Header
+=========================
+------->
+    <header class="header" id="header">
+        <!-------Navigation----------->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+
+                    <div class="nav__hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="nav__logo">
+                        <a href="/" class="scroll-link">
+            MOBILE
+          </a>
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <span class="nav__category">MOBILE</span>
+                            <a href="#" class="close__toggle">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html" class="nav__link">Home</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#category" class="nav__link ">Category</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#news" class="nav__link">Blog</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link scroll-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="nav__icons">
+                        <a href="#" class="icon__item">
+                            <!input type="search"  placeholder="search for products, brands and more">
+                            <i class="fas fa-search"></i>
+                        </a>
+
+                        <a href="login.html" class="icon__item">
+                            <i class="fas fa-user"></i>
+                        </a>
+
+                        <a href="cart.html" class="icon__item">
+                            <i class="fas fa-shopping-basket"></i>
+                            <span id="cart__total"></span>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+   
+    </header>
+
+    <!----------Main--------------->
+    <main id="main">
+  <!-- All Products -->
+  <section class="category__section section" id="category">
+    <div class="tab__list">
+        <div class="title__container tabs">
+            <div class="section__titles category__titles">
+                <div class="section__title filter-btn active" data-id="All Products">
+                    <span class="dot"></span>
+                    <h1 class="primary__title">All Products</h1>
+                </div>
+            </div>
+        </div>
+        
+    <div class="top container">
+        <div class="form__sort">
+        <form class="form__move">
+            <select>
+                <option value="1">Defualt Sorting</option>
+                <option value="2">Sort By Price</option>
+                <option value="3">Sort By Popularity</option>
+                <option value="4">Sort By Sale</option>
+                <option value="5">Sort By Rating</option>
+            </select>
+            <span><i class="fas fa-chevron-down"></i></span>
+        </form></div>
+        
+    </div>
+
+    <div class="category__container">
+        <div class="category__center">
+
+        </div>
+    </div>
+
+
+   </div>
+</section>
+    
+
+
+<section class="pagination">
+    <div class=" container">
+        <span><a href="products.html">1</a></span>
+        <span><a href="products1.html">2</a></span>
+        <span><a href="products2.html">3</a></span>
+        <span><a href="products1.html">4</a></span>
+        <span><a href="products2.html">5</a></span>
+        <span><a href="products.html"><i class="fas fa-arrow-right"></i></a></span>
+    </div>
+</section>
+
+    <!------Facility Section------>
+    <section class="facility__section section" id="facility">
+        <div class="container">
+            <div class="facility__container">
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>FREE SHIPING WORLD WIDE</p>
+                </div>
+
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <p>100% MONEY BACK GUARANTEE</p>
+                </div>
+
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                    <p>MONEY PAYMENT GATEWAY</p>
+                </div>
+
+                <div class="facility__box">
+                    <div class="facility-img__container">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <p>24/7 ONLINE SUPPORT</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!---------NewsLetter----------->    
+<section class="section newsletter" id="contact">
+<div class="container">
+    <div class="newsletter__content">
+        <div class="newsletter__data">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>A short sentence describing what someone will receive by subscribing</p>
+        </div>
+        <div>
+            <form action="#">
+            <input type="email" class="newsletter__email" placeholder="Enter your email address">
+            <a href="#" class="newsletter__link">Subscribe</a>
+        </form>
+    </div>
+        
+    </div>
+</div>
+</section>
+</main>
+
+<!--------------Footer------------->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__box">
+                    <h3>EXTRA</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificate</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Special</a>
+                    <a href="#">Site Map</a>
+                </div>
+
+                <div class="footer-top__box">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+
+                <div class="footer-top__box">
+                    <h3>EXTRA</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+
+                <div class="footer-top__box">
+                    <h3>CONTACT US</h3>
+                    <div class="">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            42 Andhera House, Andheri Street, Andheri, Mumbai, India
+                        </span>
+                    </div>
+
+                    <div class="">
+                        <span>
+                            <i class="fas fa-envelope-square"></i>
+                            Company@gmail.com
+                        </span>
+                    </div>
+
+                    <div class="">
+                        <span>
+                            <i class="fas fa-phone"></i>
+                            +91-9874563210
+                        </span>
+                    </div>
+
+                    <div class="">
+                        <span>
+                            <i class="far fa-paper-plane"></i>
+                            Andhri Street
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-------Go To Top------------>
+    <a href="#header" class="goto-top scroll-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-------Glide js-------------->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <!----------AOS---------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!----------Script------------->
+    <script src="./Js/index.js"></script>
+    <script src="./Js/slider.js"></script>
+    <script src="./Js/products1.js"></script>
+</body>
+
+</html>

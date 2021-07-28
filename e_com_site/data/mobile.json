@@ -1,0 +1,156 @@
+{
+    "products":[{
+        "id": 4,
+        "title": "Apple iPhone 11",
+        "image": "./images/products/iPhone/iphone2.jpeg",
+        "price": "66,300",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 16,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung6.jpeg",
+        "price": "31,000",
+        "category": "Special Products"
+    },
+    {
+        "id": 27,
+        "title": "Apple iPhone 8",
+        "image": "./images/products/iPhone/iphone4.jpeg",
+        "price": "22,620",
+        "category": "Featured Products"
+    },
+
+    {
+        "id": 28,
+        "title": "Apple iPhone 11",
+        "image": "./images/products/iPhone/iphone6.jpeg",
+        "price": "67,250",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 16,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung6.jpeg",
+        "price": "31,000",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 22,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung3.jpeg",
+        "price": "35,880",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 2,
+        "title": "Apple iPhone 11",
+        "image": "./images/products/iPhone/iphone1.jpeg",
+        "price": "78,050",
+        "category": "Recent"
+    },
+
+    {
+        "id": 25,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung1.jpeg",
+        "price": "35,250",
+        "category": "Special Products"
+    },
+
+
+    {  
+        "id": 26,
+              "title": "Apple iPhone 11",
+              "image": "./images/products/iPhone/iphone3.jpeg",
+              "price": "59,280",
+              "category": "Featured Products"
+        
+      },
+
+      {
+        "id": 10,
+        "title": "Apple iPhone 11 Pro",
+        "image": "./images/products/iPhone/iphone5.jpeg",
+        "price": "76,830",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 16,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung6.jpeg",
+        "price": "31,000",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 30,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung4.jpeg",
+        "price": "28,850",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 31,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung2.jpeg",
+        "price": "39,550",
+        "category": "Featured Products"
+    },
+
+    {
+        "id": 29,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung5.jpeg",
+        "price": "42,900",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 27,
+        "title": "Apple iPhone 8",
+        "image": "./images/products/iPhone/iphone4.jpeg",
+        "price": "22,620",
+        "category": "Featured Products"
+    },
+
+    {
+        "id": 28,
+        "title": "Apple iPhone 11",
+        "image": "./images/products/iPhone/iphone6.jpeg",
+        "price": "67,250",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 16,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung6.jpeg",
+        "price": "31,000",
+        "category": "Special Products"
+    },
+
+    {
+        "id": 22,
+        "title": "Samsung Galaxy",
+        "image": "./images/products/sumsung/samsung3.jpeg",
+        "price": "35,880",
+        "category": "Trending Products"
+    },
+
+    {
+        "id": 10,
+        "title": "Apple iPhone 11 Pro",
+        "image": "./images/products/iPhone/iphone5.jpeg",
+        "price": "76,830",
+        "category": "Special Products"
+    }
+
+]
+}

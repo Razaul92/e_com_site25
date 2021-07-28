@@ -1,0 +1,126 @@
+{
+  "products": [{
+         "id":32,
+         "title": "Men Sports Shoe",
+         "image": "./images/products/clothes/pic8.png",
+         "price": "2,999",
+         "category": "Trending Products"
+  },
+
+
+    {  
+      "id": 26,
+            "title": "Apple iPhone 11",
+            "image": "./images/products/iPhone/iphone3.jpeg",
+            "price": "59,280",
+            "category": "Featured Products"
+      
+    },
+
+    {
+      "id": 15,
+      "title": "Sony WH-CH510",
+      "image": "./images/products/headphone/headphone8.jpeg",
+      "price": "6,900",
+      "category": "Trending Products"
+  },
+    
+    {
+      "id":33,
+      "title": "Office Laptop Bag",
+      "image": "./images/products/clothes/pic7.png",
+      "price": "1,350",
+      "category": "Featured Products"
+    },
+
+    
+    {
+      "id":36,
+      "title": "Men Casual Shoe",
+      "image": "./images/products/clothes/pic1.png",
+      "price": "1,450",
+      "category": "Recent"
+    },
+    {
+      "id":34,
+      "title": "Women Casual Shoe",
+      "image": "./images/products/clothes/pic9.png",
+      "price": "1,799",
+      "category": "Trending Products"
+    },
+    {
+      "id":46,
+      "title": "Baby Top",
+      "image": "./images/products/clothes/pic16.png",
+      "price": "450",
+      "category": "Recent"
+    },
+    {
+      "id": 9,
+      "title": "Sony WH-CH510",
+      "image": "./images/products/headphone/headphone5.jpeg",
+      "price": "5,250",
+      "category": "Recent"
+  },
+    {
+      "id":37,
+      "title": "Office Bag",
+      "image": "./images/products/clothes/pic10.png",
+      "price": "2,049",
+      "category": "Trending Products"
+    },
+    {
+      "id":39,
+      "title": "Men Sports Shoe",
+      "image": "./images/products/clothes/pic11.png",
+      "price": "3,999",
+      "category": "Special Products"
+    },
+
+    {
+      "id":47,
+      "title": "Baby Top",
+      "image": "./images/products/clothes/pic17.png",
+      "price": "1,450",
+      "category": "Recent"
+    },
+    {
+      "id":38,
+      "title": "Office Bag",
+      "image": "./images/products/clothes/pic12.png",
+      "price": "2,099",
+      "category": "Trending Products"
+    },
+    
+    {
+      "id":42,
+      "title": "Women Sports Shoe",
+      "image": "./images/products/clothes/pic13.png",
+      "price": "2,499",
+      "category": "Featured Products"
+    },
+    {
+      "id":41,
+      "title": "Men Sports Shoe",
+      "image": "./images/products/clothes/pic14.png",
+      "price": "2,349",
+      "category": "Featured Products"
+    },
+   
+    {
+      "id":45,
+      "title": "Women Sports Shoe",
+      "image": "./images/products/clothes/pic15.png",
+      "price": "2,899",
+      "category": "Recent"
+    },
+    {
+      "id":44,
+      "title": "Men Casual Shoe",
+      "image": "./images/products/clothes/pic1.png",
+      "price": "1,299",
+      "category": "Featured Products"
+    }
+  ]
+}
+

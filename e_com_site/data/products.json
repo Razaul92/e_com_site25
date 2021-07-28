@@ -1,0 +1,160 @@
+{
+    "products": [{
+        "id": 4,
+        "title": "Apple iPhone 11",
+        "image": "./images/products/iPhone/iphone2.jpeg",
+        "price": "66,300",
+        "category": "Special Products"
+    },
+        
+        {
+        "id": 6,
+        "title": "Men Casual Shoe",
+        "image": "./images/products/clothes/pic1.png",
+        "price": "1,550",
+        "category": "Featured Products"
+        },
+
+
+        {
+            "id":13,
+            "title": "Office Laptop Bag",
+            "image": "./images/products/clothes/pic3.png",
+            "price": "1,250",
+            "category":  "Trending Products"
+          },
+
+        {
+            "id":8,
+             "title": "Women Shoe Sandals",
+            "image": "./images/products/clothes/pic2.png",
+             "price": "2,450",
+             "category": "Featured Products"
+
+        },
+
+        {
+            "id": 5,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone3.jpeg",
+            "price": "15,258",
+            "category": "Special Products"
+        },
+        
+
+        {
+            "id": 27,
+            "title": "Apple iPhone 8",
+            "image": "./images/products/iPhone/iphone4.jpeg",
+            "price": "22,620",
+            "category": "Featured Products"
+        },
+        
+        {
+            "id":17,
+            "title": "Men Casual Shirts",
+            "image": "./images/products/clothes/pic4.png",
+            "price": "2,499",
+            "category": "Trending Products"
+          },
+        {
+            "id": 7,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone4.jpeg",
+            "price": "18,580",
+            "category": "Featured Products"
+        },
+
+        {
+            "id": 3,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone2.jpeg",
+            "price": "12,670",
+            "category": "Special Products"
+          },
+       
+        {
+            "id": 28,
+            "title": "Apple iPhone 11",
+            "image": "./images/products/iPhone/iphone6.jpeg",
+            "price": "67,250",
+            "category": "Trending Products"
+        },
+        {
+            "id":20,
+            "title": "Office Laptop Bag",
+            "image": "./images/products/clothes/pic5.png",
+            "price": "1,499",
+            "category": "Special Products"
+          },
+        {
+            "id": 12,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone7.jpeg",
+            "price": "9,850",
+            "category": "Special Products"
+        },
+       
+        {
+            "id": 16,
+            "title": "Samsung Galaxy",
+            "image": "./images/products/sumsung/samsung6.jpeg",
+            "price": "31,000",
+            "category": "Special Products"
+        },
+
+        {
+            "id": 18,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone9.jpeg",
+            "price": "16,630",
+            "category": "Trending Products"
+        },
+       
+        {
+            "id": 2,
+            "title": "Apple iPhone 11",
+            "image": "./images/products/iPhone/iphone1.jpeg",
+            "price": "78,050",
+            "category": "Recent"
+        },
+        
+        {
+            "id": 30,
+            "title": "Samsung Galaxy",
+            "image": "./images/products/sumsung/samsung4.jpeg",
+            "price": "28,850",
+            "category": "Special Products"
+        },
+        {
+            "id": 19,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone10.jpeg",
+            "price": "12,550",
+            "category": "Trending Products"
+        },
+        {
+            "id":24,
+            "title": "Men Casual Shoe",
+            "image": "./images/products/clothes/pic6.png",
+            "price": "1,550",
+            "category": "Featured Products"
+          },
+          {
+            "id":48,
+            "title": "girl Top",
+            "image": "./images/products/clothes/pic18.png",
+            "price": "950",
+            "category": "Recent"
+          },
+        
+        {
+            "id": 31,
+            "title": "Samsung Galaxy",
+            "image": "./images/products/sumsung/samsung2.jpeg",
+            "price": "39,550",
+            "category": "Featured Products"
+        }
+        
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "products": [{
+        "id":35,
+            "title": "Men Sports Shoe",
+            "image": "./images/products/clothes/pic8.png",
+            "price": "3,199",
+            "category": "Trending Products"
+        },
+
+        {
+            "id": 14,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone7.jpeg",
+            "price": "6,650",
+            "category": "Trending Products"
+        },
+
+        {
+            "id": 10,
+            "title": "Apple iPhone 11 Pro",
+            "image": "./images/products/iPhone/iphone5.jpeg",
+            "price": "76,830",
+            "category": "Special Products"
+        },
+
+        {
+            "id":40,
+            "title": "Office Laptop Bag",
+            "image": "./images/products/clothes/pic7.png",
+            "price": "2,199",
+            "category": "Recent"
+          },
+
+          {
+            "id": 11,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone6.jpeg",
+            "price": "14,580",
+            "category": "Special Products"
+        },
+
+        {
+            "id": 29,
+            "title": "Samsung Galaxy",
+            "image": "./images/products/sumsung/samsung5.jpeg",
+            "price": "42,900",
+            "category": "Trending Products"
+        },
+        {
+            "id": 49,
+            "title": "Baby trouser",
+            "image": "./images/products/clothes/pic19.png",
+            "price": "550",
+            "category": "Special Products"
+        },
+        {
+            "id": 21,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone11.jpeg",
+            "price": "3,350",
+            "category": "Trending Products"
+        },
+
+        {
+            "id": 25,
+            "title": "Samsung Galaxy",
+            "image": "./images/products/sumsung/samsung1.jpeg",
+            "price": "35,250",
+            "category": "Special Products"
+        },
+        {
+            "id": 22,
+            "title": "Samsung Galaxy",
+            "image": "./images/products/sumsung/samsung3.jpeg",
+            "price": "35,880",
+            "category": "Trending Products"
+        },
+        {
+            "id":43,
+            "title": "Men Sports Shoe",
+            "image": "./images/products/clothes/pic8.png",
+            "price": "2,199",
+            "category": "Special Products"
+          },
+          {
+            "id": 50,
+            "title": "Baby Shoes",
+            "image": "./images/products/clothes/pic20.png",
+            "price": "480",
+            "category": "Special Products"
+        },
+          
+        {
+            "id": 23,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone12.jpeg",
+            "price": "16,680",
+            "category": "Featured Products"
+        },
+
+        {
+            "id": 1,
+            "title": "Sony WH-CH510",
+            "image": "./images/products/headphone/headphone1.jpeg",
+            "price": "11,550",
+            "category": "Special Products"
+        }
+
+
+
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
